@@ -1,6 +1,12 @@
 {
  "categories": [
   {
+   "key": "must",
+   "name": "Must-Know",
+   "th": "ต้องรู้",
+   "sos": "☎️ Emergency in China: Police 110 · Ambulance 120 · Fire 119"
+  },
+  {
    "key": "greet",
    "name": "Greetings",
    "th": "ทักทาย"
@@ -72,6 +78,159 @@
   }
  ],
  "phrases": [
+  {
+   "cat": "must",
+   "zh": "请问洗手间在哪儿？",
+   "pinyin": "qǐngwèn xǐshǒujiān zài nǎr?",
+   "en": "Where is the toilet?",
+   "th": "ห้องน้ำอยู่ที่ไหน",
+   "note": "厕所 cèsuǒ is also fine."
+  },
+  {
+   "cat": "must",
+   "zh": "请问哪里可以打车？",
+   "pinyin": "qǐngwèn nǎlǐ kěyǐ dǎchē?",
+   "en": "Where can I get a taxi?",
+   "th": "เรียกแท็กซี่ได้ที่ไหน",
+   "note": "Taxi stand sign: 出租车停靠点. Or book a Didi."
+  },
+  {
+   "cat": "must",
+   "zh": "请问医院在哪儿？",
+   "pinyin": "qǐngwèn yīyuàn zài nǎr?",
+   "en": "Where is the hospital?",
+   "th": "โรงพยาบาลอยู่ที่ไหน",
+   "note": ""
+  },
+  {
+   "cat": "must",
+   "zh": "最近的药店在哪儿？",
+   "pinyin": "zuìjìn de yàodiàn zài nǎr?",
+   "en": "Where is the nearest pharmacy?",
+   "th": "ร้านขายยาที่ใกล้ที่สุดอยู่ที่ไหน",
+   "note": ""
+  },
+  {
+   "cat": "must",
+   "zh": "请问派出所在哪儿？",
+   "pinyin": "qǐngwèn pàichūsuǒ zài nǎr?",
+   "en": "Where is the police station?",
+   "th": "สถานีตำรวจอยู่ที่ไหน",
+   "note": "派出所 = local police station."
+  },
+  {
+   "cat": "must",
+   "zh": "请问地铁站在哪儿？",
+   "pinyin": "qǐngwèn dìtiě zhàn zài nǎr?",
+   "en": "Where is the metro station?",
+   "th": "สถานีรถไฟใต้ดินอยู่ที่ไหน",
+   "note": "Train station: 火车站 huǒchē zhàn."
+  },
+  {
+   "cat": "must",
+   "zh": "我需要帮助",
+   "pinyin": "wǒ xūyào bāngzhù",
+   "en": "I need help",
+   "th": "ฉันต้องการความช่วยเหลือ",
+   "note": ""
+  },
+  {
+   "cat": "must",
+   "zh": "请帮帮我",
+   "pinyin": "qǐng bāngbang wǒ",
+   "en": "Please help me",
+   "th": "ช่วยฉันด้วย",
+   "note": "Urgent shout: 救命！jiùmìng!"
+  },
+  {
+   "cat": "must",
+   "zh": "请叫救护车",
+   "pinyin": "qǐng jiào jiùhùchē",
+   "en": "Please call an ambulance",
+   "th": "ช่วยเรียกรถพยาบาล",
+   "note": "☎️ China: Police 110 · Ambulance 120 · Fire 119."
+  },
+  {
+   "cat": "must",
+   "zh": "请帮我报警",
+   "pinyin": "qǐng bāng wǒ bàojǐng",
+   "en": "Please call the police",
+   "th": "ช่วยแจ้งตำรวจ",
+   "note": "☎️ China: Police 110 · Ambulance 120 · Fire 119."
+  },
+  {
+   "cat": "must",
+   "zh": "你会说英语吗？",
+   "pinyin": "nǐ huì shuō Yīngyǔ ma?",
+   "en": "Do you speak English?",
+   "th": "คุณพูดภาษาอังกฤษได้ไหม",
+   "note": ""
+  },
+  {
+   "cat": "must",
+   "zh": "我听不懂",
+   "pinyin": "wǒ tīng bù dǒng",
+   "en": "I don't understand",
+   "th": "ฟังไม่เข้าใจ",
+   "note": ""
+  },
+  {
+   "cat": "must",
+   "zh": "请说慢一点",
+   "pinyin": "qǐng shuō màn yìdiǎn",
+   "en": "Please speak slowly",
+   "th": "ช่วยพูดช้าๆ",
+   "note": ""
+  },
+  {
+   "cat": "must",
+   "zh": "可以写下来吗？",
+   "pinyin": "kěyǐ xiě xiàlái ma?",
+   "en": "Can you write it down?",
+   "th": "เขียนให้ได้ไหม",
+   "note": ""
+  },
+  {
+   "cat": "must",
+   "zh": "这个多少钱？",
+   "pinyin": "zhège duōshao qián?",
+   "en": "How much is this?",
+   "th": "อันนี้เท่าไหร่",
+   "note": ""
+  },
+  {
+   "cat": "must",
+   "zh": "我迷路了",
+   "pinyin": "wǒ mílù le",
+   "en": "I'm lost",
+   "th": "ฉันหลงทาง",
+   "note": ""
+  },
+  {
+   "cat": "must",
+   "zh": "我对…过敏",
+   "pinyin": "wǒ duì … guòmǐn",
+   "en": "I'm allergic to …",
+   "th": "ฉันแพ้ …",
+   "note": "Fill in: 花生 peanuts, 虾 shrimp, 鸡蛋 egg, 牛奶 milk, 海鲜 seafood.",
+   "say": "我对花生过敏"
+  },
+  {
+   "cat": "must",
+   "zh": "谢谢",
+   "pinyin": "xièxie",
+   "en": "Thank you",
+   "th": "ขอบคุณ",
+   "note": ""
+  },
+  {
+   "cat": "must",
+   "zh": "不好意思",
+   "pinyin": "bù hǎoyìsi",
+   "en": "Sorry / Excuse me",
+   "th": "ขอโทษนะ",
+   "note": "Real apology: 对不起 duìbuqǐ."
+  },
   {
    "cat": "greet",
    "zh": "你好",

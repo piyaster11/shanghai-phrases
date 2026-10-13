@@ -2,6 +2,12 @@
  "voice": "Google Translate TTS via gTTS (lang zh-CN)",
  "categories": [
   {
+   "key": "must",
+   "name": "Must-Know",
+   "th": "ต้องรู้",
+   "sos": "☎️ Emergency in China: Police 110 · Ambulance 120 · Fire 119"
+  },
+  {
    "key": "greet",
    "name": "Greetings",
    "th": "ทักทาย"
@@ -75,6 +81,215 @@
  "phrases": [
   {
    "id": 1,
+   "cat": "must",
+   "zh": "请问洗手间在哪儿？",
+   "pinyin": "qǐngwèn xǐshǒujiān zài nǎr?",
+   "en": "Where is the toilet?",
+   "th": "ห้องน้ำอยู่ที่ไหน",
+   "note": "厕所 cèsuǒ is also fine.",
+   "say": "请问洗手间在哪儿？",
+   "audio": "audio/1974c569c5.mp3"
+  },
+  {
+   "id": 2,
+   "cat": "must",
+   "zh": "请问哪里可以打车？",
+   "pinyin": "qǐngwèn nǎlǐ kěyǐ dǎchē?",
+   "en": "Where can I get a taxi?",
+   "th": "เรียกแท็กซี่ได้ที่ไหน",
+   "note": "Taxi stand sign: 出租车停靠点. Or book a Didi.",
+   "say": "请问哪里可以打车？",
+   "audio": "audio/0418ac0bab.mp3"
+  },
+  {
+   "id": 3,
+   "cat": "must",
+   "zh": "请问医院在哪儿？",
+   "pinyin": "qǐngwèn yīyuàn zài nǎr?",
+   "en": "Where is the hospital?",
+   "th": "โรงพยาบาลอยู่ที่ไหน",
+   "note": "",
+   "say": "请问医院在哪儿？",
+   "audio": "audio/f5ea4835f9.mp3"
+  },
+  {
+   "id": 4,
+   "cat": "must",
+   "zh": "最近的药店在哪儿？",
+   "pinyin": "zuìjìn de yàodiàn zài nǎr?",
+   "en": "Where is the nearest pharmacy?",
+   "th": "ร้านขายยาที่ใกล้ที่สุดอยู่ที่ไหน",
+   "note": "",
+   "say": "最近的药店在哪儿？",
+   "audio": "audio/c341b79043.mp3"
+  },
+  {
+   "id": 5,
+   "cat": "must",
+   "zh": "请问派出所在哪儿？",
+   "pinyin": "qǐngwèn pàichūsuǒ zài nǎr?",
+   "en": "Where is the police station?",
+   "th": "สถานีตำรวจอยู่ที่ไหน",
+   "note": "派出所 = local police station.",
+   "say": "请问派出所在哪儿？",
+   "audio": "audio/9a83d4b61d.mp3"
+  },
+  {
+   "id": 6,
+   "cat": "must",
+   "zh": "请问地铁站在哪儿？",
+   "pinyin": "qǐngwèn dìtiě zhàn zài nǎr?",
+   "en": "Where is the metro station?",
+   "th": "สถานีรถไฟใต้ดินอยู่ที่ไหน",
+   "note": "Train station: 火车站 huǒchē zhàn.",
+   "say": "请问地铁站在哪儿？",
+   "audio": "audio/a2cc1742e9.mp3"
+  },
+  {
+   "id": 7,
+   "cat": "must",
+   "zh": "我需要帮助",
+   "pinyin": "wǒ xūyào bāngzhù",
+   "en": "I need help",
+   "th": "ฉันต้องการความช่วยเหลือ",
+   "note": "",
+   "say": "我需要帮助",
+   "audio": "audio/36c36d1c05.mp3"
+  },
+  {
+   "id": 8,
+   "cat": "must",
+   "zh": "请帮帮我",
+   "pinyin": "qǐng bāngbang wǒ",
+   "en": "Please help me",
+   "th": "ช่วยฉันด้วย",
+   "note": "Urgent shout: 救命！jiùmìng!",
+   "say": "请帮帮我",
+   "audio": "audio/eadf34622d.mp3"
+  },
+  {
+   "id": 9,
+   "cat": "must",
+   "zh": "请叫救护车",
+   "pinyin": "qǐng jiào jiùhùchē",
+   "en": "Please call an ambulance",
+   "th": "ช่วยเรียกรถพยาบาล",
+   "note": "☎️ China: Police 110 · Ambulance 120 · Fire 119.",
+   "say": "请叫救护车",
+   "audio": "audio/3b263e016d.mp3"
+  },
+  {
+   "id": 10,
+   "cat": "must",
+   "zh": "请帮我报警",
+   "pinyin": "qǐng bāng wǒ bàojǐng",
+   "en": "Please call the police",
+   "th": "ช่วยแจ้งตำรวจ",
+   "note": "☎️ China: Police 110 · Ambulance 120 · Fire 119.",
+   "say": "请帮我报警",
+   "audio": "audio/4b3af94e11.mp3"
+  },
+  {
+   "id": 11,
+   "cat": "must",
+   "zh": "你会说英语吗？",
+   "pinyin": "nǐ huì shuō Yīngyǔ ma?",
+   "en": "Do you speak English?",
+   "th": "คุณพูดภาษาอังกฤษได้ไหม",
+   "note": "",
+   "say": "你会说英语吗？",
+   "audio": "audio/992ede3152.mp3"
+  },
+  {
+   "id": 12,
+   "cat": "must",
+   "zh": "我听不懂",
+   "pinyin": "wǒ tīng bù dǒng",
+   "en": "I don't understand",
+   "th": "ฟังไม่เข้าใจ",
+   "note": "",
+   "say": "我听不懂",
+   "audio": "audio/d44de8d346.mp3"
+  },
+  {
+   "id": 13,
+   "cat": "must",
+   "zh": "请说慢一点",
+   "pinyin": "qǐng shuō màn yìdiǎn",
+   "en": "Please speak slowly",
+   "th": "ช่วยพูดช้าๆ",
+   "note": "",
+   "say": "请说慢一点",
+   "audio": "audio/00fbe4cfd9.mp3"
+  },
+  {
+   "id": 14,
+   "cat": "must",
+   "zh": "可以写下来吗？",
+   "pinyin": "kěyǐ xiě xiàlái ma?",
+   "en": "Can you write it down?",
+   "th": "เขียนให้ได้ไหม",
+   "note": "",
+   "say": "可以写下来吗？",
+   "audio": "audio/fdeae70263.mp3"
+  },
+  {
+   "id": 15,
+   "cat": "must",
+   "zh": "这个多少钱？",
+   "pinyin": "zhège duōshao qián?",
+   "en": "How much is this?",
+   "th": "อันนี้เท่าไหร่",
+   "note": "",
+   "say": "这个多少钱？",
+   "audio": "audio/6933a68342.mp3"
+  },
+  {
+   "id": 16,
+   "cat": "must",
+   "zh": "我迷路了",
+   "pinyin": "wǒ mílù le",
+   "en": "I'm lost",
+   "th": "ฉันหลงทาง",
+   "note": "",
+   "say": "我迷路了",
+   "audio": "audio/382a06a40f.mp3"
+  },
+  {
+   "id": 17,
+   "cat": "must",
+   "zh": "我对…过敏",
+   "pinyin": "wǒ duì … guòmǐn",
+   "en": "I'm allergic to …",
+   "th": "ฉันแพ้ …",
+   "note": "Fill in: 花生 peanuts, 虾 shrimp, 鸡蛋 egg, 牛奶 milk, 海鲜 seafood.",
+   "say": "我对花生过敏",
+   "audio": "audio/2c9fabd75a.mp3"
+  },
+  {
+   "id": 18,
+   "cat": "must",
+   "zh": "谢谢",
+   "pinyin": "xièxie",
+   "en": "Thank you",
+   "th": "ขอบคุณ",
+   "note": "",
+   "say": "谢谢",
+   "audio": "audio/c91bf50a38.mp3"
+  },
+  {
+   "id": 19,
+   "cat": "must",
+   "zh": "不好意思",
+   "pinyin": "bù hǎoyìsi",
+   "en": "Sorry / Excuse me",
+   "th": "ขอโทษนะ",
+   "note": "Real apology: 对不起 duìbuqǐ.",
+   "say": "不好意思",
+   "audio": "audio/4b7e36b331.mp3"
+  },
+  {
+   "id": 20,
    "cat": "greet",
    "zh": "你好",
    "pinyin": "nǐ hǎo",
@@ -85,7 +300,7 @@
    "audio": "audio/69444c37f1.mp3"
   },
   {
-   "id": 2,
+   "id": 21,
    "cat": "greet",
    "zh": "您好",
    "pinyin": "nín hǎo",
@@ -96,7 +311,7 @@
    "audio": "audio/42989de9bc.mp3"
   },
   {
-   "id": 3,
+   "id": 22,
    "cat": "greet",
    "zh": "早上好",
    "pinyin": "zǎoshang hǎo",
@@ -107,7 +322,7 @@
    "audio": "audio/7ee5aba9d7.mp3"
   },
   {
-   "id": 4,
+   "id": 23,
    "cat": "greet",
    "zh": "晚上好",
    "pinyin": "wǎnshang hǎo",
@@ -118,7 +333,7 @@
    "audio": "audio/628e4152b0.mp3"
   },
   {
-   "id": 5,
+   "id": 24,
    "cat": "greet",
    "zh": "晚安",
    "pinyin": "wǎn'ān",
@@ -129,7 +344,7 @@
    "audio": "audio/8a342888fd.mp3"
   },
   {
-   "id": 6,
+   "id": 25,
    "cat": "greet",
    "zh": "最近怎么样？",
    "pinyin": "zuìjìn zěnmeyàng?",
@@ -140,7 +355,7 @@
    "audio": "audio/4c7c65b3e1.mp3"
   },
   {
-   "id": 7,
+   "id": 26,
    "cat": "greet",
    "zh": "我挺好的",
    "pinyin": "wǒ tǐng hǎo de",
@@ -151,7 +366,7 @@
    "audio": "audio/db06b8b787.mp3"
   },
   {
-   "id": 8,
+   "id": 27,
    "cat": "greet",
    "zh": "很高兴认识你",
    "pinyin": "hěn gāoxìng rènshi nǐ",
@@ -162,7 +377,7 @@
    "audio": "audio/5df38a7d33.mp3"
   },
   {
-   "id": 9,
+   "id": 28,
    "cat": "greet",
    "zh": "我叫…",
    "pinyin": "wǒ jiào…",
@@ -173,7 +388,7 @@
    "audio": "audio/7b327623e1.mp3"
   },
   {
-   "id": 10,
+   "id": 29,
    "cat": "greet",
    "zh": "我是泰国人",
    "pinyin": "wǒ shì Tàiguó rén",
@@ -184,7 +399,7 @@
    "audio": "audio/97e05a9e88.mp3"
   },
   {
-   "id": 11,
+   "id": 30,
    "cat": "greet",
    "zh": "再见",
    "pinyin": "zàijiàn",
@@ -195,7 +410,7 @@
    "audio": "audio/3d1a071e60.mp3"
   },
   {
-   "id": 12,
+   "id": 31,
    "cat": "greet",
    "zh": "拜拜",
    "pinyin": "bàibai",
@@ -206,7 +421,7 @@
    "audio": "audio/bae13512bb.mp3"
   },
   {
-   "id": 13,
+   "id": 32,
    "cat": "greet",
    "zh": "回头见",
    "pinyin": "huítóu jiàn",
@@ -217,7 +432,7 @@
    "audio": "audio/5ee3d25e5e.mp3"
   },
   {
-   "id": 14,
+   "id": 33,
    "cat": "metro",
    "zh": "请问地铁站在哪儿？",
    "pinyin": "qǐngwèn dìtiě zhàn zài nǎr?",
@@ -228,7 +443,7 @@
    "audio": "audio/a2cc1742e9.mp3"
   },
   {
-   "id": 15,
+   "id": 34,
    "cat": "metro",
    "zh": "去外滩怎么走？",
    "pinyin": "qù Wàitān zěnme zǒu?",
@@ -239,7 +454,7 @@
    "audio": "audio/c448fbdaaa.mp3"
   },
   {
-   "id": 16,
+   "id": 35,
    "cat": "metro",
    "zh": "去陆家嘴坐几号线？",
    "pinyin": "qù Lùjiāzuǐ zuò jǐ hào xiàn?",
@@ -250,7 +465,7 @@
    "audio": "audio/8d6a622cee.mp3"
   },
   {
-   "id": 17,
+   "id": 36,
    "cat": "metro",
    "zh": "豫园在哪一站下？",
    "pinyin": "Yùyuán zài nǎ yí zhàn xià?",
@@ -261,7 +476,7 @@
    "audio": "audio/0962fbb00d.mp3"
   },
   {
-   "id": 18,
+   "id": 37,
    "cat": "metro",
    "zh": "南京路步行街怎么走？",
    "pinyin": "Nánjīng Lù bùxíngjiē zěnme zǒu?",
@@ -272,7 +487,7 @@
    "audio": "audio/d4522c5d21.mp3"
   },
   {
-   "id": 19,
+   "id": 38,
    "cat": "metro",
    "zh": "在哪儿换乘？",
    "pinyin": "zài nǎr huànchéng?",
@@ -283,7 +498,7 @@
    "audio": "audio/fd31218130.mp3"
   },
   {
-   "id": 20,
+   "id": 39,
    "cat": "metro",
    "zh": "下一站是哪儿？",
    "pinyin": "xià yí zhàn shì nǎr?",
@@ -294,7 +509,7 @@
    "audio": "audio/c128c2ab81.mp3"
   },
   {
-   "id": 21,
+   "id": 40,
    "cat": "metro",
    "zh": "几号口出？",
    "pinyin": "jǐ hào kǒu chū?",
@@ -305,7 +520,7 @@
    "audio": "audio/4288d1e902.mp3"
   },
   {
-   "id": 22,
+   "id": 41,
    "cat": "metro",
    "zh": "我打了个滴滴",
    "pinyin": "wǒ dǎ le ge Dīdī",
@@ -316,7 +531,7 @@
    "audio": "audio/2a48207fcc.mp3"
   },
   {
-   "id": 23,
+   "id": 42,
    "cat": "metro",
    "zh": "师傅，去这个地址",
    "pinyin": "shīfu, qù zhège dìzhǐ",
@@ -327,7 +542,7 @@
    "audio": "audio/d92ee5d50a.mp3"
   },
   {
-   "id": 24,
+   "id": 43,
    "cat": "metro",
    "zh": "师傅，到这儿停就行",
    "pinyin": "shīfu, dào zhèr tíng jiù xíng",
@@ -338,7 +553,7 @@
    "audio": "audio/10b1b8cf68.mp3"
   },
   {
-   "id": 25,
+   "id": 44,
    "cat": "metro",
    "zh": "手机尾号是1234",
    "pinyin": "shǒujī wěihào shì yāo-èr-sān-sì",
@@ -349,7 +564,7 @@
    "audio": "audio/d110f08d0b.mp3"
   },
   {
-   "id": 26,
+   "id": 45,
    "cat": "metro",
    "zh": "直走",
    "pinyin": "zhí zǒu",
@@ -360,7 +575,7 @@
    "audio": "audio/a3e34f0a54.mp3"
   },
   {
-   "id": 27,
+   "id": 46,
    "cat": "metro",
    "zh": "左转／右转",
    "pinyin": "zuǒ zhuǎn / yòu zhuǎn",
@@ -371,7 +586,7 @@
    "audio": "audio/199c9e0665.mp3"
   },
   {
-   "id": 28,
+   "id": 47,
    "cat": "metro",
    "zh": "走路要多久？",
    "pinyin": "zǒulù yào duōjiǔ?",
@@ -382,7 +597,7 @@
    "audio": "audio/5837e48778.mp3"
   },
   {
-   "id": 29,
+   "id": 48,
    "cat": "metro",
    "zh": "我迷路了",
    "pinyin": "wǒ mílù le",
@@ -393,7 +608,7 @@
    "audio": "audio/382a06a40f.mp3"
   },
   {
-   "id": 30,
+   "id": 49,
    "cat": "metro",
    "zh": "洗手间在哪儿？",
    "pinyin": "xǐshǒujiān zài nǎr?",
@@ -404,7 +619,7 @@
    "audio": "audio/3cbff31171.mp3"
   },
   {
-   "id": 31,
+   "id": 50,
    "cat": "pay",
    "zh": "可以用支付宝吗？",
    "pinyin": "kěyǐ yòng Zhīfùbǎo ma?",
@@ -415,7 +630,7 @@
    "audio": "audio/2b06eff6b2.mp3"
   },
   {
-   "id": 32,
+   "id": 51,
    "cat": "pay",
    "zh": "可以用微信支付吗？",
    "pinyin": "kěyǐ yòng Wēixìn zhīfù ma?",
@@ -426,7 +641,7 @@
    "audio": "audio/acf763c496.mp3"
   },
   {
-   "id": 33,
+   "id": 52,
    "cat": "pay",
    "zh": "我扫你还是你扫我？",
    "pinyin": "wǒ sǎo nǐ háishi nǐ sǎo wǒ?",
@@ -437,7 +652,7 @@
    "audio": "audio/23c6fbc3dc.mp3"
   },
   {
-   "id": 34,
+   "id": 53,
    "cat": "pay",
    "zh": "我扫你吧",
    "pinyin": "wǒ sǎo nǐ ba",
@@ -448,7 +663,7 @@
    "audio": "audio/757bb2743b.mp3"
   },
   {
-   "id": 35,
+   "id": 54,
    "cat": "pay",
    "zh": "这是我的付款码",
    "pinyin": "zhè shì wǒ de fùkuǎn mǎ",
@@ -459,7 +674,7 @@
    "audio": "audio/4d093b72d5.mp3"
   },
   {
-   "id": 36,
+   "id": 55,
    "cat": "pay",
    "zh": "付好了",
    "pinyin": "fù hǎo le",
@@ -470,7 +685,7 @@
    "audio": "audio/2fc2271b8f.mp3"
   },
   {
-   "id": 37,
+   "id": 56,
    "cat": "pay",
    "zh": "可以付现金吗？",
    "pinyin": "kěyǐ fù xiànjīn ma?",
@@ -481,7 +696,7 @@
    "audio": "audio/b16e087ff6.mp3"
   },
   {
-   "id": 38,
+   "id": 57,
    "cat": "pay",
    "zh": "可以刷外国信用卡吗？",
    "pinyin": "kěyǐ shuā wàiguó xìnyòngkǎ ma?",
@@ -492,7 +707,7 @@
    "audio": "audio/cb9d3f82ef.mp3"
   },
   {
-   "id": 39,
+   "id": 58,
    "cat": "pay",
    "zh": "找零",
    "pinyin": "zhǎo líng",
@@ -503,7 +718,7 @@
    "audio": "audio/c3adfecb2b.mp3"
   },
   {
-   "id": 40,
+   "id": 59,
    "cat": "pay",
    "zh": "付款失败了",
    "pinyin": "fùkuǎn shībài le",
@@ -514,7 +729,7 @@
    "audio": "audio/26d9fa514a.mp3"
   },
   {
-   "id": 41,
+   "id": 60,
    "cat": "pay",
    "zh": "要发票吗？",
    "pinyin": "yào fāpiào ma?",
@@ -525,7 +740,7 @@
    "audio": "audio/ff13579687.mp3"
   },
   {
-   "id": 42,
+   "id": 61,
    "cat": "food",
    "zh": "几位？",
    "pinyin": "jǐ wèi?",
@@ -536,7 +751,7 @@
    "audio": "audio/a5095b0eec.mp3"
   },
   {
-   "id": 43,
+   "id": 62,
    "cat": "food",
    "zh": "两位",
    "pinyin": "liǎng wèi",
@@ -547,7 +762,7 @@
    "audio": "audio/f614c38a34.mp3"
   },
   {
-   "id": 44,
+   "id": 63,
    "cat": "food",
    "zh": "扫码点餐吗？",
    "pinyin": "sǎo mǎ diǎn cān ma?",
@@ -558,7 +773,7 @@
    "audio": "audio/2d5292cd67.mp3"
   },
   {
-   "id": 45,
+   "id": 64,
    "cat": "food",
    "zh": "有菜单吗？",
    "pinyin": "yǒu càidān ma?",
@@ -569,7 +784,7 @@
    "audio": "audio/0db960a371.mp3"
   },
   {
-   "id": 46,
+   "id": 65,
    "cat": "food",
    "zh": "有什么推荐的？",
    "pinyin": "yǒu shénme tuījiàn de?",
@@ -580,7 +795,7 @@
    "audio": "audio/84e78ef0f9.mp3"
   },
   {
-   "id": 47,
+   "id": 66,
    "cat": "food",
    "zh": "来一笼小笼包",
    "pinyin": "lái yì lóng xiǎolóngbāo",
@@ -591,7 +806,7 @@
    "audio": "audio/afe952f61d.mp3"
   },
   {
-   "id": 48,
+   "id": 67,
    "cat": "food",
    "zh": "来四个生煎",
    "pinyin": "lái sì ge shēngjiān",
@@ -602,7 +817,7 @@
    "audio": "audio/0eca8ec2f2.mp3"
   },
   {
-   "id": 49,
+   "id": 68,
    "cat": "food",
    "zh": "小心烫",
    "pinyin": "xiǎoxīn tàng",
@@ -613,7 +828,7 @@
    "audio": "audio/badc6d83d6.mp3"
   },
   {
-   "id": 50,
+   "id": 69,
    "cat": "food",
    "zh": "不要辣",
    "pinyin": "búyào là",
@@ -624,7 +839,7 @@
    "audio": "audio/50c9e95366.mp3"
   },
   {
-   "id": 51,
+   "id": 70,
    "cat": "food",
    "zh": "微辣",
    "pinyin": "wēi là",
@@ -635,7 +850,7 @@
    "audio": "audio/8da416bdf1.mp3"
   },
   {
-   "id": 52,
+   "id": 71,
    "cat": "food",
    "zh": "不要香菜",
    "pinyin": "búyào xiāngcài",
@@ -646,7 +861,7 @@
    "audio": "audio/e46cfec75e.mp3"
   },
   {
-   "id": 53,
+   "id": 72,
    "cat": "food",
    "zh": "我不吃猪肉",
    "pinyin": "wǒ bù chī zhūròu",
@@ -657,7 +872,7 @@
    "audio": "audio/d2bfc32f0e.mp3"
   },
   {
-   "id": 54,
+   "id": 73,
    "cat": "food",
    "zh": "我对花生过敏",
    "pinyin": "wǒ duì huāshēng guòmǐn",
@@ -668,7 +883,7 @@
    "audio": "audio/2c9fabd75a.mp3"
   },
   {
-   "id": 55,
+   "id": 74,
    "cat": "food",
    "zh": "再来一碗米饭",
    "pinyin": "zài lái yì wǎn mǐfàn",
@@ -679,7 +894,7 @@
    "audio": "audio/621c398449.mp3"
   },
   {
-   "id": 56,
+   "id": 75,
    "cat": "food",
    "zh": "好吃！",
    "pinyin": "hǎochī!",
@@ -690,7 +905,7 @@
    "audio": "audio/6d8a4144e6.mp3"
   },
   {
-   "id": 57,
+   "id": 76,
    "cat": "food",
    "zh": "打包",
    "pinyin": "dǎbāo",
@@ -701,7 +916,7 @@
    "audio": "audio/3d9c674bc2.mp3"
   },
   {
-   "id": 58,
+   "id": 77,
    "cat": "food",
    "zh": "买单",
    "pinyin": "mǎidān",
@@ -712,7 +927,7 @@
    "audio": "audio/8578b7636f.mp3"
   },
   {
-   "id": 59,
+   "id": 78,
    "cat": "drink",
    "zh": "一杯拿铁",
    "pinyin": "yì bēi nátiě",
@@ -723,7 +938,7 @@
    "audio": "audio/2fcdbae99e.mp3"
   },
   {
-   "id": 60,
+   "id": 79,
    "cat": "drink",
    "zh": "美式，冰的",
    "pinyin": "Měishì, bīng de",
@@ -734,7 +949,7 @@
    "audio": "audio/a37d76eb3d.mp3"
   },
   {
-   "id": 61,
+   "id": 80,
    "cat": "drink",
    "zh": "热的",
    "pinyin": "rè de",
@@ -745,7 +960,7 @@
    "audio": "audio/bbdef6d088.mp3"
   },
   {
-   "id": 62,
+   "id": 81,
    "cat": "drink",
    "zh": "大杯",
    "pinyin": "dà bēi",
@@ -756,7 +971,7 @@
    "audio": "audio/53be471a0a.mp3"
   },
   {
-   "id": 63,
+   "id": 82,
    "cat": "drink",
    "zh": "一杯奶茶",
    "pinyin": "yì bēi nǎichá",
@@ -767,7 +982,7 @@
    "audio": "audio/2bb4316975.mp3"
   },
   {
-   "id": 64,
+   "id": 83,
    "cat": "drink",
    "zh": "少糖",
    "pinyin": "shǎo táng",
@@ -778,7 +993,7 @@
    "audio": "audio/88fd32aaa1.mp3"
   },
   {
-   "id": 65,
+   "id": 84,
    "cat": "drink",
    "zh": "不另外加糖",
    "pinyin": "bù lìngwài jiā táng",
@@ -789,7 +1004,7 @@
    "audio": "audio/f98452cedb.mp3"
   },
   {
-   "id": 66,
+   "id": 85,
    "cat": "drink",
    "zh": "少冰",
    "pinyin": "shǎo bīng",
@@ -800,7 +1015,7 @@
    "audio": "audio/0b4dd01ce6.mp3"
   },
   {
-   "id": 67,
+   "id": 86,
    "cat": "drink",
    "zh": "加珍珠",
    "pinyin": "jiā zhēnzhū",
@@ -811,7 +1026,7 @@
    "audio": "audio/f1e89a0d00.mp3"
   },
   {
-   "id": 68,
+   "id": 87,
    "cat": "drink",
    "zh": "在这儿喝",
    "pinyin": "zài zhèr hē",
@@ -822,7 +1037,7 @@
    "audio": "audio/50ad440f80.mp3"
   },
   {
-   "id": 69,
+   "id": 88,
    "cat": "drink",
    "zh": "带走",
    "pinyin": "dàizǒu",
@@ -833,7 +1048,7 @@
    "audio": "audio/0be3293660.mp3"
   },
   {
-   "id": 70,
+   "id": 89,
    "cat": "drink",
    "zh": "可以用小程序点吗？",
    "pinyin": "kěyǐ yòng xiǎochéngxù diǎn ma?",
@@ -844,7 +1059,7 @@
    "audio": "audio/179fd1ab53.mp3"
   },
   {
-   "id": 71,
+   "id": 90,
    "cat": "shop",
    "zh": "这个多少钱？",
    "pinyin": "zhège duōshao qián?",
@@ -855,7 +1070,7 @@
    "audio": "audio/6933a68342.mp3"
   },
   {
-   "id": 72,
+   "id": 91,
    "cat": "shop",
    "zh": "太贵了",
    "pinyin": "tài guì le",
@@ -866,7 +1081,7 @@
    "audio": "audio/bff71a1113.mp3"
   },
   {
-   "id": 73,
+   "id": 92,
    "cat": "shop",
    "zh": "能便宜点吗？",
    "pinyin": "néng piányi diǎn ma?",
@@ -877,7 +1092,7 @@
    "audio": "audio/c828a30e54.mp3"
   },
   {
-   "id": 74,
+   "id": 93,
    "cat": "shop",
    "zh": "最低多少？",
    "pinyin": "zuì dī duōshao?",
@@ -888,7 +1103,7 @@
    "audio": "audio/8fe926ce35.mp3"
   },
   {
-   "id": 75,
+   "id": 94,
    "cat": "shop",
    "zh": "我再看看",
    "pinyin": "wǒ zài kànkan",
@@ -899,7 +1114,7 @@
    "audio": "audio/584fd8341a.mp3"
   },
   {
-   "id": 76,
+   "id": 95,
    "cat": "shop",
    "zh": "我就看看",
    "pinyin": "wǒ jiù kànkan",
@@ -910,7 +1125,7 @@
    "audio": "audio/7fd581e50a.mp3"
   },
   {
-   "id": 77,
+   "id": 96,
    "cat": "shop",
    "zh": "可以试试吗？",
    "pinyin": "kěyǐ shìshi ma?",
@@ -921,7 +1136,7 @@
    "audio": "audio/8f0ef00909.mp3"
   },
   {
-   "id": 78,
+   "id": 97,
    "cat": "shop",
    "zh": "有大一点的吗？",
    "pinyin": "yǒu dà yìdiǎn de ma?",
@@ -932,7 +1147,7 @@
    "audio": "audio/a31c154cc6.mp3"
   },
   {
-   "id": 79,
+   "id": 98,
    "cat": "shop",
    "zh": "有别的颜色吗？",
    "pinyin": "yǒu bié de yánsè ma?",
@@ -943,7 +1158,7 @@
    "audio": "audio/8b14fe25a6.mp3"
   },
   {
-   "id": 80,
+   "id": 99,
    "cat": "shop",
    "zh": "就要这个",
    "pinyin": "jiù yào zhège",
@@ -954,7 +1169,7 @@
    "audio": "audio/f3eca396b1.mp3"
   },
   {
-   "id": 81,
+   "id": 100,
    "cat": "shop",
    "zh": "可以退税吗？",
    "pinyin": "kěyǐ tuìshuì ma?",
@@ -965,7 +1180,7 @@
    "audio": "audio/a7aa88ff89.mp3"
   },
   {
-   "id": 82,
+   "id": 101,
    "cat": "hotel",
    "zh": "我预订了房间",
    "pinyin": "wǒ yùdìng le fángjiān",
@@ -976,7 +1191,7 @@
    "audio": "audio/b858c4a583.mp3"
   },
   {
-   "id": 83,
+   "id": 102,
    "cat": "hotel",
    "zh": "办理入住",
    "pinyin": "bànlǐ rùzhù",
@@ -987,7 +1202,7 @@
    "audio": "audio/85ccfb60ce.mp3"
   },
   {
-   "id": 84,
+   "id": 103,
    "cat": "hotel",
    "zh": "这是我的护照",
    "pinyin": "zhè shì wǒ de hùzhào",
@@ -998,7 +1213,7 @@
    "audio": "audio/76a17b9fe9.mp3"
   },
   {
-   "id": 85,
+   "id": 104,
    "cat": "hotel",
    "zh": "你们可以接待外宾吗？",
    "pinyin": "nǐmen kěyǐ jiēdài wàibīn ma?",
@@ -1009,7 +1224,7 @@
    "audio": "audio/9ab28c660d.mp3"
   },
   {
-   "id": 86,
+   "id": 105,
    "cat": "hotel",
    "zh": "押金多少？",
    "pinyin": "yājīn duōshao?",
@@ -1020,7 +1235,7 @@
    "audio": "audio/83abe71655.mp3"
   },
   {
-   "id": 87,
+   "id": 106,
    "cat": "hotel",
    "zh": "几点退房？",
    "pinyin": "jǐ diǎn tuìfáng?",
@@ -1031,7 +1246,7 @@
    "audio": "audio/e057d3a067.mp3"
   },
   {
-   "id": 88,
+   "id": 107,
    "cat": "hotel",
    "zh": "可以寄存行李吗？",
    "pinyin": "kěyǐ jìcún xíngli ma?",
@@ -1042,7 +1257,7 @@
    "audio": "audio/4e8a3b3f9e.mp3"
   },
   {
-   "id": 89,
+   "id": 108,
    "cat": "hotel",
    "zh": "早餐几点开始？",
    "pinyin": "zǎocān jǐ diǎn kāishǐ?",
@@ -1053,7 +1268,7 @@
    "audio": "audio/afdd56eb01.mp3"
   },
   {
-   "id": 90,
+   "id": 109,
    "cat": "hotel",
    "zh": "空调坏了",
    "pinyin": "kōngtiáo huài le",
@@ -1064,7 +1279,7 @@
    "audio": "audio/29fd574aab.mp3"
   },
   {
-   "id": 91,
+   "id": 110,
    "cat": "hotel",
    "zh": "没有热水",
    "pinyin": "méiyǒu rèshuǐ",
@@ -1075,7 +1290,7 @@
    "audio": "audio/1da6176a77.mp3"
   },
   {
-   "id": 92,
+   "id": 111,
    "cat": "hotel",
    "zh": "房卡打不开门",
    "pinyin": "fángkǎ dǎ bù kāi mén",
@@ -1086,7 +1301,7 @@
    "audio": "audio/266d30f66b.mp3"
   },
   {
-   "id": 93,
+   "id": 112,
    "cat": "hotel",
    "zh": "可以多给一条毛巾吗？",
    "pinyin": "kěyǐ duō gěi yì tiáo máojīn ma?",
@@ -1097,7 +1312,7 @@
    "audio": "audio/2274740263.mp3"
   },
   {
-   "id": 94,
+   "id": 113,
    "cat": "store",
    "zh": "全家在哪儿？",
    "pinyin": "Quánjiā zài nǎr?",
@@ -1108,7 +1323,7 @@
    "audio": "audio/7322769669.mp3"
   },
   {
-   "id": 95,
+   "id": 114,
    "cat": "store",
    "zh": "附近有便利店吗？",
    "pinyin": "fùjìn yǒu biànlìdiàn ma?",
@@ -1119,7 +1334,7 @@
    "audio": "audio/da52896906.mp3"
   },
   {
-   "id": 96,
+   "id": 115,
    "cat": "store",
    "zh": "要加热吗？",
    "pinyin": "yào jiārè ma?",
@@ -1130,7 +1345,7 @@
    "audio": "audio/349c5df866.mp3"
   },
   {
-   "id": 97,
+   "id": 116,
    "cat": "store",
    "zh": "帮我热一下",
    "pinyin": "bāng wǒ rè yíxià",
@@ -1141,7 +1356,7 @@
    "audio": "audio/29d31dcc46.mp3"
   },
   {
-   "id": 98,
+   "id": 117,
    "cat": "store",
    "zh": "要袋子吗？",
    "pinyin": "yào dàizi ma?",
@@ -1152,7 +1367,7 @@
    "audio": "audio/a228de3687.mp3"
   },
   {
-   "id": 99,
+   "id": 118,
    "cat": "store",
    "zh": "不用了，谢谢",
    "pinyin": "búyòng le, xièxie",
@@ -1163,7 +1378,7 @@
    "audio": "audio/71b0c064aa.mp3"
   },
   {
-   "id": 100,
+   "id": 119,
    "cat": "store",
    "zh": "有会员吗？",
    "pinyin": "yǒu huìyuán ma?",
@@ -1174,7 +1389,7 @@
    "audio": "audio/97f1be61fc.mp3"
   },
   {
-   "id": 101,
+   "id": 120,
    "cat": "store",
    "zh": "关东煮",
    "pinyin": "guāndōngzhǔ",
@@ -1185,7 +1400,7 @@
    "audio": "audio/7c424fd603.mp3"
   },
   {
-   "id": 102,
+   "id": 121,
    "cat": "store",
    "zh": "这个可以微波吗？",
    "pinyin": "zhège kěyǐ wēibō ma?",
@@ -1196,7 +1411,7 @@
    "audio": "audio/676bea183c.mp3"
   },
   {
-   "id": 103,
+   "id": 122,
    "cat": "store",
    "zh": "有热水吗？",
    "pinyin": "yǒu rèshuǐ ma?",
@@ -1207,7 +1422,7 @@
    "audio": "audio/417ea89951.mp3"
   },
   {
-   "id": 104,
+   "id": 123,
    "cat": "help",
    "zh": "救命！",
    "pinyin": "jiùmìng!",
@@ -1218,7 +1433,7 @@
    "audio": "audio/c3114b9b89.mp3"
   },
   {
-   "id": 105,
+   "id": 124,
    "cat": "help",
    "zh": "请叫救护车",
    "pinyin": "qǐng jiào jiùhùchē",
@@ -1229,7 +1444,7 @@
    "audio": "audio/3b263e016d.mp3"
   },
   {
-   "id": 106,
+   "id": 125,
    "cat": "help",
    "zh": "请帮我报警",
    "pinyin": "qǐng bāng wǒ bàojǐng",
@@ -1240,7 +1455,7 @@
    "audio": "audio/4b3af94e11.mp3"
   },
   {
-   "id": 107,
+   "id": 126,
    "cat": "help",
    "zh": "医院在哪儿？",
    "pinyin": "yīyuàn zài nǎr?",
@@ -1251,7 +1466,7 @@
    "audio": "audio/7cb5c14376.mp3"
   },
   {
-   "id": 108,
+   "id": 127,
    "cat": "help",
    "zh": "药店在哪儿？",
    "pinyin": "yàodiàn zài nǎr?",
@@ -1262,7 +1477,7 @@
    "audio": "audio/f342268a94.mp3"
   },
   {
-   "id": 109,
+   "id": 128,
    "cat": "help",
    "zh": "我不舒服",
    "pinyin": "wǒ bù shūfu",
@@ -1273,7 +1488,7 @@
    "audio": "audio/0899b65ead.mp3"
   },
   {
-   "id": 110,
+   "id": 129,
    "cat": "help",
    "zh": "我这儿疼",
    "pinyin": "wǒ zhèr téng",
@@ -1284,7 +1499,7 @@
    "audio": "audio/d49f2b9e8a.mp3"
   },
   {
-   "id": 111,
+   "id": 130,
    "cat": "help",
    "zh": "我发烧了",
    "pinyin": "wǒ fāshāo le",
@@ -1295,7 +1510,7 @@
    "audio": "audio/fc5cdcd62c.mp3"
   },
   {
-   "id": 112,
+   "id": 131,
    "cat": "help",
    "zh": "我的手机丢了",
    "pinyin": "wǒ de shǒujī diū le",
@@ -1306,7 +1521,7 @@
    "audio": "audio/3b840f24b4.mp3"
   },
   {
-   "id": 113,
+   "id": 132,
    "cat": "help",
    "zh": "有人会说英语吗？",
    "pinyin": "yǒu rén huì shuō Yīngyǔ ma?",
@@ -1317,7 +1532,7 @@
    "audio": "audio/989fcb5a95.mp3"
   },
   {
-   "id": 114,
+   "id": 133,
    "cat": "help",
    "zh": "我听不懂",
    "pinyin": "wǒ tīng bù dǒng",
@@ -1328,7 +1543,7 @@
    "audio": "audio/d44de8d346.mp3"
   },
   {
-   "id": 115,
+   "id": 134,
    "cat": "help",
    "zh": "请再说一遍",
    "pinyin": "qǐng zài shuō yí biàn",
@@ -1339,7 +1554,7 @@
    "audio": "audio/48861f28eb.mp3"
   },
   {
-   "id": 116,
+   "id": 135,
    "cat": "help",
    "zh": "请说慢一点",
    "pinyin": "qǐng shuō màn yìdiǎn",
@@ -1350,7 +1565,7 @@
    "audio": "audio/00fbe4cfd9.mp3"
   },
   {
-   "id": 117,
+   "id": 136,
    "cat": "help",
    "zh": "可以写下来吗？",
    "pinyin": "kěyǐ xiě xiàlái ma?",
@@ -1361,7 +1576,7 @@
    "audio": "audio/fdeae70263.mp3"
   },
   {
-   "id": 118,
+   "id": 137,
    "cat": "talk",
    "zh": "今天好热啊",
    "pinyin": "jīntiān hǎo rè a",
@@ -1372,7 +1587,7 @@
    "audio": "audio/b59c9fa0c1.mp3"
   },
   {
-   "id": 119,
+   "id": 138,
    "cat": "talk",
    "zh": "你是上海人吗？",
    "pinyin": "nǐ shì Shànghǎi rén ma?",
@@ -1383,7 +1598,7 @@
    "audio": "audio/f810c7e601.mp3"
   },
   {
-   "id": 120,
+   "id": 139,
    "cat": "talk",
    "zh": "我第一次来上海",
    "pinyin": "wǒ dì-yī cì lái Shànghǎi",
@@ -1394,7 +1609,7 @@
    "audio": "audio/a0a1de7668.mp3"
   },
   {
-   "id": 121,
+   "id": 140,
    "cat": "talk",
    "zh": "上海很漂亮",
    "pinyin": "Shànghǎi hěn piàoliang",
@@ -1405,7 +1620,7 @@
    "audio": "audio/82fc7695be.mp3"
   },
   {
-   "id": 122,
+   "id": 141,
    "cat": "talk",
    "zh": "我在学中文",
    "pinyin": "wǒ zài xué Zhōngwén",
@@ -1416,7 +1631,7 @@
    "audio": "audio/30dd819070.mp3"
   },
   {
-   "id": 123,
+   "id": 142,
    "cat": "talk",
    "zh": "我只会一点点",
    "pinyin": "wǒ zhǐ huì yìdiǎndiǎn",
@@ -1427,7 +1642,7 @@
    "audio": "audio/583568771d.mp3"
   },
   {
-   "id": 124,
+   "id": 143,
    "cat": "talk",
    "zh": "真的吗？",
    "pinyin": "zhēn de ma?",
@@ -1438,7 +1653,7 @@
    "audio": "audio/f48c7a5b82.mp3"
   },
   {
-   "id": 125,
+   "id": 144,
    "cat": "talk",
    "zh": "太厉害了！",
    "pinyin": "tài lìhai le!",
@@ -1449,7 +1664,7 @@
    "audio": "audio/83acb9f74b.mp3"
   },
   {
-   "id": 126,
+   "id": 145,
    "cat": "talk",
    "zh": "有什么好玩的地方？",
    "pinyin": "yǒu shénme hǎowán de dìfang?",
@@ -1460,7 +1675,7 @@
    "audio": "audio/0b0b850a31.mp3"
   },
   {
-   "id": 127,
+   "id": 146,
    "cat": "talk",
    "zh": "可以帮我拍张照吗？",
    "pinyin": "kěyǐ bāng wǒ pāi zhāng zhào ma?",
@@ -1471,7 +1686,7 @@
    "audio": "audio/c040b6d867.mp3"
   },
   {
-   "id": 128,
+   "id": 147,
    "cat": "talk",
    "zh": "加个微信吧",
    "pinyin": "jiā ge Wēixìn ba",
@@ -1482,7 +1697,7 @@
    "audio": "audio/d6803e628f.mp3"
   },
   {
-   "id": 129,
+   "id": 148,
    "cat": "polite",
    "zh": "谢谢",
    "pinyin": "xièxie",
@@ -1493,7 +1708,7 @@
    "audio": "audio/c91bf50a38.mp3"
   },
   {
-   "id": 130,
+   "id": 149,
    "cat": "polite",
    "zh": "不客气",
    "pinyin": "bú kèqi",
@@ -1504,7 +1719,7 @@
    "audio": "audio/b9f0894452.mp3"
   },
   {
-   "id": 131,
+   "id": 150,
    "cat": "polite",
    "zh": "不好意思",
    "pinyin": "bù hǎoyìsi",
@@ -1515,7 +1730,7 @@
    "audio": "audio/4b7e36b331.mp3"
   },
   {
-   "id": 132,
+   "id": 151,
    "cat": "polite",
    "zh": "对不起",
    "pinyin": "duìbuqǐ",
@@ -1526,7 +1741,7 @@
    "audio": "audio/b17f6881fd.mp3"
   },
   {
-   "id": 133,
+   "id": 152,
    "cat": "polite",
    "zh": "请问",
    "pinyin": "qǐngwèn",
@@ -1537,7 +1752,7 @@
    "audio": "audio/bb40713e22.mp3"
   },
   {
-   "id": 134,
+   "id": 153,
    "cat": "polite",
    "zh": "麻烦你了",
    "pinyin": "máfan nǐ le",
@@ -1548,7 +1763,7 @@
    "audio": "audio/580a966e89.mp3"
   },
   {
-   "id": 135,
+   "id": 154,
    "cat": "polite",
    "zh": "没关系",
    "pinyin": "méi guānxi",
@@ -1559,7 +1774,7 @@
    "audio": "audio/e5abf41d70.mp3"
   },
   {
-   "id": 136,
+   "id": 155,
    "cat": "polite",
    "zh": "没问题",
    "pinyin": "méi wèntí",
@@ -1570,7 +1785,7 @@
    "audio": "audio/0fbc9fa470.mp3"
   },
   {
-   "id": 137,
+   "id": 156,
    "cat": "polite",
    "zh": "等一下",
    "pinyin": "děng yíxià",
@@ -1581,7 +1796,7 @@
    "audio": "audio/adb4e3f452.mp3"
   },
   {
-   "id": 138,
+   "id": 157,
    "cat": "polite",
    "zh": "好的",
    "pinyin": "hǎo de",
@@ -1592,7 +1807,7 @@
    "audio": "audio/e803adb458.mp3"
   },
   {
-   "id": 139,
+   "id": 158,
    "cat": "polite",
    "zh": "服务员！",
    "pinyin": "fúwùyuán!",
@@ -1603,7 +1818,7 @@
    "audio": "audio/d8849202ed.mp3"
   },
   {
-   "id": 140,
+   "id": 159,
    "cat": "polite",
    "zh": "辛苦了",
    "pinyin": "xīnkǔ le",
@@ -1614,7 +1829,7 @@
    "audio": "audio/d94bfa5a85.mp3"
   },
   {
-   "id": 141,
+   "id": 160,
    "cat": "num",
    "zh": "一、二、三",
    "pinyin": "yī, èr, sān",
@@ -1625,7 +1840,7 @@
    "audio": "audio/3ffc1017df.mp3"
   },
   {
-   "id": 142,
+   "id": 161,
    "cat": "num",
    "zh": "五十块",
    "pinyin": "wǔshí kuài",
@@ -1636,7 +1851,7 @@
    "audio": "audio/181b37839e.mp3"
   },
   {
-   "id": 143,
+   "id": 162,
    "cat": "num",
    "zh": "两百块",
    "pinyin": "liǎngbǎi kuài",
@@ -1647,7 +1862,7 @@
    "audio": "audio/fe47b4b568.mp3"
   },
   {
-   "id": 144,
+   "id": 163,
    "cat": "num",
    "zh": "一块五",
    "pinyin": "yí kuài wǔ",
@@ -1658,7 +1873,7 @@
    "audio": "audio/466517e8ec.mp3"
   },
   {
-   "id": 145,
+   "id": 164,
    "cat": "num",
    "zh": "一千",
    "pinyin": "yìqiān",
@@ -1669,7 +1884,7 @@
    "audio": "audio/9099a29f37.mp3"
   },
   {
-   "id": 146,
+   "id": 165,
    "cat": "num",
    "zh": "现在几点？",
    "pinyin": "xiànzài jǐ diǎn?",
@@ -1680,7 +1895,7 @@
    "audio": "audio/8d9260a456.mp3"
   },
   {
-   "id": 147,
+   "id": 166,
    "cat": "num",
    "zh": "三点半",
    "pinyin": "sān diǎn bàn",
@@ -1691,7 +1906,7 @@
    "audio": "audio/cfdfa23bb3.mp3"
   },
   {
-   "id": 148,
+   "id": 167,
    "cat": "num",
    "zh": "几点开门？",
    "pinyin": "jǐ diǎn kāimén?",
@@ -1702,7 +1917,7 @@
    "audio": "audio/8129ed1eca.mp3"
   },
   {
-   "id": 149,
+   "id": 168,
    "cat": "num",
    "zh": "今天／明天／昨天",
    "pinyin": "jīntiān / míngtiān / zuótiān",
@@ -1713,7 +1928,7 @@
    "audio": "audio/43dc5ab031.mp3"
   },
   {
-   "id": 150,
+   "id": 169,
    "cat": "num",
    "zh": "星期六",
    "pinyin": "xīngqī liù",
@@ -1724,7 +1939,7 @@
    "audio": "audio/39e6dabfe0.mp3"
   },
   {
-   "id": 151,
+   "id": 170,
    "cat": "num",
    "zh": "等五分钟",
    "pinyin": "děng wǔ fēnzhōng",
@@ -1735,7 +1950,7 @@
    "audio": "audio/3e866cf3b9.mp3"
   },
   {
-   "id": 152,
+   "id": 171,
    "cat": "net",
    "zh": "Wi-Fi密码是多少？",
    "pinyin": "Wi-Fi mìmǎ shì duōshao?",
@@ -1746,7 +1961,7 @@
    "audio": "audio/a3a7af75b1.mp3"
   },
   {
-   "id": 153,
+   "id": 172,
    "cat": "net",
    "zh": "哪里可以买电话卡？",
    "pinyin": "nǎlǐ kěyǐ mǎi diànhuà kǎ?",
@@ -1757,7 +1972,7 @@
    "audio": "audio/c43e209a00.mp3"
   },
   {
-   "id": 154,
+   "id": 173,
    "cat": "net",
    "zh": "我要办一张流量卡",
    "pinyin": "wǒ yào bàn yì zhāng liúliàng kǎ",
@@ -1768,7 +1983,7 @@
    "audio": "audio/fa29921530.mp3"
   },
   {
-   "id": 155,
+   "id": 174,
    "cat": "net",
    "zh": "手机没电了",
    "pinyin": "shǒujī méi diàn le",
@@ -1779,7 +1994,7 @@
    "audio": "audio/fb1517a18a.mp3"
   },
   {
-   "id": 156,
+   "id": 175,
    "cat": "net",
    "zh": "哪儿可以借充电宝？",
    "pinyin": "nǎr kěyǐ jiè chōngdiànbǎo?",
@@ -1790,7 +2005,7 @@
    "audio": "audio/2691c70b70.mp3"
   },
   {
-   "id": 157,
+   "id": 176,
    "cat": "net",
    "zh": "可以充电吗？",
    "pinyin": "kěyǐ chōngdiàn ma?",
@@ -1801,7 +2016,7 @@
    "audio": "audio/7ccdc149ed.mp3"
   },
   {
-   "id": 158,
+   "id": 177,
    "cat": "net",
    "zh": "这个应用怎么用？",
    "pinyin": "zhège yìngyòng zěnme yòng?",
@@ -1812,7 +2027,7 @@
    "audio": "audio/511096e890.mp3"
   },
   {
-   "id": 159,
+   "id": 178,
    "cat": "net",
    "zh": "网络不太好",
    "pinyin": "wǎngluò bú tài hǎo",
@@ -1823,7 +2038,7 @@
    "audio": "audio/2a9a92df8f.mp3"
   },
   {
-   "id": 160,
+   "id": 179,
    "cat": "net",
    "zh": "可以帮我翻译一下吗？",
    "pinyin": "kěyǐ bāng wǒ fānyì yíxià ma?",
@@ -1834,7 +2049,7 @@
    "audio": "audio/f63d200b09.mp3"
   },
   {
-   "id": 161,
+   "id": 180,
    "cat": "net",
    "zh": "我用国际漫游",
    "pinyin": "wǒ yòng guójì mànyóu",
@@ -1845,7 +2060,7 @@
    "audio": "audio/efcd1d95fc.mp3"
   },
   {
-   "id": 162,
+   "id": 181,
    "cat": "hu",
    "zh": "侬好",
    "pinyin": "nóng hō",
@@ -1855,7 +2070,7 @@
    "dialect": true
   },
   {
-   "id": 163,
+   "id": 182,
    "cat": "hu",
    "zh": "谢谢侬",
    "pinyin": "zhia-zhia nóng",
@@ -1865,7 +2080,7 @@
    "dialect": true
   },
   {
-   "id": 164,
+   "id": 183,
    "cat": "hu",
    "zh": "再会",
    "pinyin": "tsé-wé",
@@ -1875,7 +2090,7 @@
    "dialect": true
   },
   {
-   "id": 165,
+   "id": 184,
    "cat": "hu",
    "zh": "阿拉是上海人",
    "pinyin": "ah-lah zy zãn-hé nin",
@@ -1885,7 +2100,7 @@
    "dialect": true
   },
   {
-   "id": 166,
+   "id": 185,
    "cat": "hu",
    "zh": "老好额",
    "pinyin": "lō hō geq",
@@ -1895,7 +2110,7 @@
    "dialect": true
   },
   {
-   "id": 167,
+   "id": 186,
    "cat": "hu",
    "zh": "饭吃过伐？",
    "pinyin": "vé chiq ku vaq?",
@@ -1905,7 +2120,7 @@
    "dialect": true
   },
   {
-   "id": 168,
+   "id": 187,
    "cat": "hu",
    "zh": "交关好吃",
    "pinyin": "jiau-kué hō-chiq",
@@ -1915,7 +2130,7 @@
    "dialect": true
   },
   {
-   "id": 169,
+   "id": 188,
    "cat": "hu",
    "zh": "勿要客气",
    "pinyin": "veq iō khaq-chi",
